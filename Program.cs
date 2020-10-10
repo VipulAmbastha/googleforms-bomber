@@ -20,12 +20,12 @@ namespace FormsBomber
             Random random = new Random();
             Names NameClass = new Names();
             StringBuilder strings = new StringBuilder();
-            Classes Sections = new Classes();
 
             //Declare Variables
             int length = 10;
             char letter;
-
+            Console.WriteLine("Enter the URL");
+            string URL = Console.ReadLine();
 
         ResetPage:
 
